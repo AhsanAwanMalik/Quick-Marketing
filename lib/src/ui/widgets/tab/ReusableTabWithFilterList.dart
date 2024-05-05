@@ -169,14 +169,12 @@ class ReusableTabWithFilterList extends StatelessWidget {
                                           borderRadius: BorderRadius.all(
                                             Radius.circular(15),
                                           ),
-                                        ),
+                                        ), disabledForegroundColor: Colors.white.withOpacity(0.38), disabledBackgroundColor: Colors.white.withOpacity(0.12),
                                         backgroundColor: filterInvert
                                             ? filterIconClick != null
                                                 ? UIDataColors.commonColor
                                                 : Colors.white
                                             : Colors.white,
-                                        // ignore: deprecated_member_use
-                                        onSurface: Colors.white,
                                       ),
                                       child: Icon(
                                         Icons.filter_alt_outlined,

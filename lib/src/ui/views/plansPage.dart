@@ -272,8 +272,9 @@ class PlanScreen extends StatelessWidget {
                                                             style:
                                                                 ElevatedButton
                                                                     .styleFrom(
-                                                              primary: UIDataColors
-                                                                  .commonColor,
+                                                              backgroundColor:
+                                                                  UIDataColors
+                                                                      .commonColor,
                                                               padding: EdgeInsets
                                                                   .only(
                                                                       top: 23,
@@ -464,8 +465,9 @@ class PlanScreen extends StatelessWidget {
                                                             style:
                                                                 ElevatedButton
                                                                     .styleFrom(
-                                                              primary: UIDataColors
-                                                                  .commonColor,
+                                                              backgroundColor:
+                                                                  UIDataColors
+                                                                      .commonColor,
                                                               padding: EdgeInsets
                                                                   .only(
                                                                       top: 23,
@@ -656,8 +658,9 @@ class PlanScreen extends StatelessWidget {
                                                             style:
                                                                 ElevatedButton
                                                                     .styleFrom(
-                                                              primary: UIDataColors
-                                                                  .commonColor,
+                                                              backgroundColor:
+                                                                  UIDataColors
+                                                                      .commonColor,
                                                               padding: EdgeInsets
                                                                   .only(
                                                                       top: 23,
@@ -909,8 +912,9 @@ class PlanScreen extends StatelessWidget {
                                                           },
                                                           style: ElevatedButton
                                                               .styleFrom(
-                                                            primary: UIDataColors
-                                                                .commonColor,
+                                                            backgroundColor:
+                                                                UIDataColors
+                                                                    .commonColor,
                                                             padding:
                                                                 EdgeInsets.only(
                                                                     top: 23,
@@ -1092,8 +1096,9 @@ class PlanScreen extends StatelessWidget {
                                                           },
                                                           style: ElevatedButton
                                                               .styleFrom(
-                                                            primary: UIDataColors
-                                                                .commonColor,
+                                                            backgroundColor:
+                                                                UIDataColors
+                                                                    .commonColor,
                                                             padding:
                                                                 EdgeInsets.only(
                                                                     top: 23,
@@ -1275,8 +1280,9 @@ class PlanScreen extends StatelessWidget {
                                                           },
                                                           style: ElevatedButton
                                                               .styleFrom(
-                                                            primary: UIDataColors
-                                                                .commonColor,
+                                                            backgroundColor:
+                                                                UIDataColors
+                                                                    .commonColor,
                                                             padding:
                                                                 EdgeInsets.only(
                                                                     top: 23,
@@ -1525,8 +1531,9 @@ class PlanScreen extends StatelessWidget {
                                                           },
                                                           style: ElevatedButton
                                                               .styleFrom(
-                                                            primary: UIDataColors
-                                                                .commonColor,
+                                                            backgroundColor:
+                                                                UIDataColors
+                                                                    .commonColor,
                                                             padding:
                                                                 EdgeInsets.only(
                                                                     top: 23,
@@ -1708,8 +1715,9 @@ class PlanScreen extends StatelessWidget {
                                                           },
                                                           style: ElevatedButton
                                                               .styleFrom(
-                                                            primary: UIDataColors
-                                                                .commonColor,
+                                                            backgroundColor:
+                                                                UIDataColors
+                                                                    .commonColor,
                                                             padding:
                                                                 EdgeInsets.only(
                                                                     top: 23,
@@ -1891,8 +1899,9 @@ class PlanScreen extends StatelessWidget {
                                                           },
                                                           style: ElevatedButton
                                                               .styleFrom(
-                                                            primary: UIDataColors
-                                                                .commonColor,
+                                                            backgroundColor:
+                                                                UIDataColors
+                                                                    .commonColor,
                                                             padding:
                                                                 EdgeInsets.only(
                                                                     top: 23,
@@ -2127,7 +2136,8 @@ class PlanScreen extends StatelessWidget {
                                               // Add your button click logic here
                                             },
                                             style: ElevatedButton.styleFrom(
-                                              primary: UIDataColors.commonColor,
+                                              backgroundColor:
+                                                  UIDataColors.commonColor,
                                               padding: EdgeInsets.only(
                                                   top: 23,
                                                   bottom: 23,
@@ -2280,7 +2290,8 @@ class PlanScreen extends StatelessWidget {
                                               // Add your button click logic here
                                             },
                                             style: ElevatedButton.styleFrom(
-                                              primary: UIDataColors.commonColor,
+                                              backgroundColor:
+                                                  UIDataColors.commonColor,
                                               padding: EdgeInsets.only(
                                                   top: 23,
                                                   bottom: 23,
@@ -2434,7 +2445,8 @@ class PlanScreen extends StatelessWidget {
                                               // Add your button click logic here
                                             },
                                             style: ElevatedButton.styleFrom(
-                                              primary: UIDataColors.commonColor,
+                                              backgroundColor:
+                                                  UIDataColors.commonColor,
                                               padding: EdgeInsets.only(
                                                   top: 23,
                                                   bottom: 23,
@@ -2599,7 +2611,8 @@ class PlanScreen extends StatelessWidget {
                                               // Add your button click logic here
                                             },
                                             style: ElevatedButton.styleFrom(
-                                              primary: UIDataColors.commonColor,
+                                              backgroundColor:
+                                                  UIDataColors.commonColor,
                                               padding: EdgeInsets.only(
                                                   top: 23,
                                                   bottom: 23,
@@ -2753,7 +2766,8 @@ class PlanScreen extends StatelessWidget {
                                               // Add your button click logic here
                                             },
                                             style: ElevatedButton.styleFrom(
-                                              primary: UIDataColors.commonColor,
+                                              backgroundColor:
+                                                  UIDataColors.commonColor,
                                               padding: EdgeInsets.only(
                                                   top: 23,
                                                   bottom: 23,
@@ -2907,7 +2921,8 @@ class PlanScreen extends StatelessWidget {
                                               // Add your button click logic here
                                             },
                                             style: ElevatedButton.styleFrom(
-                                              primary: UIDataColors.commonColor,
+                                              backgroundColor:
+                                                  UIDataColors.commonColor,
                                               padding: EdgeInsets.only(
                                                   top: 23,
                                                   bottom: 23,
@@ -3074,7 +3089,8 @@ class PlanScreen extends StatelessWidget {
                                               // Add your button click logic here
                                             },
                                             style: ElevatedButton.styleFrom(
-                                              primary: UIDataColors.commonColor,
+                                              backgroundColor:
+                                                  UIDataColors.commonColor,
                                               padding: EdgeInsets.only(
                                                   top: 23,
                                                   bottom: 23,
@@ -3228,7 +3244,8 @@ class PlanScreen extends StatelessWidget {
                                               // Add your button click logic here
                                             },
                                             style: ElevatedButton.styleFrom(
-                                              primary: UIDataColors.commonColor,
+                                              backgroundColor:
+                                                  UIDataColors.commonColor,
                                               padding: EdgeInsets.only(
                                                   top: 23,
                                                   bottom: 23,
@@ -3382,7 +3399,8 @@ class PlanScreen extends StatelessWidget {
                                               // Add your button click logic here
                                             },
                                             style: ElevatedButton.styleFrom(
-                                              primary: UIDataColors.commonColor,
+                                              backgroundColor:
+                                                  UIDataColors.commonColor,
                                               padding: EdgeInsets.only(
                                                   top: 23,
                                                   bottom: 23,
