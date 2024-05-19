@@ -133,7 +133,6 @@ class AboutUs extends StatelessWidget {
                         height: 156.0, // Fixed size for the chart
                         width: 156.0, // Fixed size for the chart
                         child: SfCircularChart(
-                          
                           margin: const EdgeInsets.symmetric(vertical: 10),
                           series: <CircularSeries>[
                             DoughnutSeries<ChartData, String>(
