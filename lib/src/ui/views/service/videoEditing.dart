@@ -48,7 +48,7 @@ class VideoEditing extends StatelessWidget {
                     ),
                   ),
                   Container(
-                          width: Get.width,
+                          width: Get.width / 1.1,
                           child: ResponsiveTextFieldRow(
                             firstTextField: Container(
                               alignment: Responsive.isMobileContext(context)
@@ -111,8 +111,30 @@ class VideoEditing extends StatelessWidget {
                                             )
                                           ]),
                                     ),
+                                    /////////////////
                                     Text(
-                                      'Welcome to our professional video editing service, where creativity meets precision to transform your raw footage into captivating visual stories. Our dedicated team of skilled video editors is committed to delivering high-quality, polished videos that resonate with your audience and leave a lasting impression. Explore the comprehensive range of video editing services we offer to enhance your content and bring your vision to life.',
+                                      'What is a Video Editing Service?',
+                                      style: TextStyle(
+                                          color: UIDataColors.blackColor,
+                                          fontSize: !Responsive.isMobileContext(
+                                                  context)
+                                              ? Responsive.isTabletContext(
+                                                      context)
+                                                  ? 14
+                                                  : 16
+                                              : 14,
+                                          height: !Responsive.isMobileContext(
+                                                  context)
+                                              ? Responsive.isTabletContext(
+                                                      context)
+                                                  ? 1.4
+                                                  : 1.6
+                                              : 1.4,
+                                          fontWeight: FontWeight.bold,
+                                          decoration: TextDecoration.none),
+                                    ).paddingOnly(top: 0, bottom: 10),
+                                    Text(
+                                      'The Video Editing Service offers, precisely, video editing to companies and individuals who wish to improve the quality of their videos. Our service is responsible for taking the recorded video and editing it to meet industry quality standards. Includes color correction, audio editing, text editing and much more.',
                                       style: TextStyle(
                                           color: UIDataColors.blackColor,
                                           fontSize: !Responsive.isMobileContext(
@@ -132,8 +154,31 @@ class VideoEditing extends StatelessWidget {
                                           fontWeight: FontWeight.normal,
                                           decoration: TextDecoration.none),
                                     ).paddingOnly(top: 0, bottom: 10),
+                                    ////////////////
                                     Text(
-                                      'Our video editing team combines artistic flair with technical expertise to bring your creative vision to fruition. From storytelling to seamless transitions, color correction, and audio enhancement, we pay meticulous attention to detail to ensure your videos stand out in a crowded digital landscape.',
+                                      'Video Editing Services: How Can You Choose the Best One?',
+                                      style: TextStyle(
+                                          color: UIDataColors.blackColor,
+                                          fontSize: !Responsive.isMobileContext(
+                                                  context)
+                                              ? Responsive.isTabletContext(
+                                                      context)
+                                                  ? 14
+                                                  : 16
+                                              : 14,
+                                          height: !Responsive.isMobileContext(
+                                                  context)
+                                              ? Responsive.isTabletContext(
+                                                      context)
+                                                  ? 1.4
+                                                  : 1.6
+                                              : 1.4,
+                                          fontWeight: FontWeight.bold,
+                                          decoration: TextDecoration.none),
+                                    ).paddingOnly(top: 0, bottom: 10),
+
+                                    Text(
+                                      "Today, word-era graphic photos still look like boring content. In today's world, creating video content is attractive for any business looking to stay current with the internet. For corporate and conventional video tutorials, videos are a powerful source for communicating your company's message to Internet users.\n \nHowever, not everyone can create high-quality videos that meet production standards. This is where the Video Editing, Creation, Design and Production Service comes into play.",
                                       style: TextStyle(
                                           color: UIDataColors.blackColor,
                                           fontSize: !Responsive.isMobileContext(
@@ -152,9 +197,31 @@ class VideoEditing extends StatelessWidget {
                                               : 1.4,
                                           fontWeight: FontWeight.normal,
                                           decoration: TextDecoration.none),
-                                    ),
+                                    ).paddingOnly(top: 0, bottom: 10),
+                                    ///////////////////
                                     Text(
-                                      'Whether youre a content creator, business owner, or filmmaker, we offer tailored video editing solutions to meet the unique requirements of your project. From short-form social media content to feature-length films, we have the skills and resources to handle projects of any scale and complexity.',
+                                      'How do you select the best video editing services easily?',
+                                      style: TextStyle(
+                                          color: UIDataColors.blackColor,
+                                          fontSize: !Responsive.isMobileContext(
+                                                  context)
+                                              ? Responsive.isTabletContext(
+                                                      context)
+                                                  ? 14
+                                                  : 16
+                                              : 14,
+                                          height: !Responsive.isMobileContext(
+                                                  context)
+                                              ? Responsive.isTabletContext(
+                                                      context)
+                                                  ? 1.4
+                                                  : 1.6
+                                              : 1.4,
+                                          fontWeight: FontWeight.bold,
+                                          decoration: TextDecoration.none),
+                                    ).paddingOnly(top: 0, bottom: 10),
+                                    Text(
+                                      " When choosing a video editing service, there are several factors to consider. It is essential to verify the previous portfolio of their clients. This will give you an idea of the quality you can expect from the service.\n \n Secondly, check the fares and compare them with other competitors. This will help you choose the services within your budget very quickly.\n \n Lastly, it would help if you ensured the video editing service has an excellent online reputation. You can check it through the online reviews and comments from previous clients' experiences.",
                                       style: TextStyle(
                                           color: UIDataColors.blackColor,
                                           fontSize: !Responsive.isMobileContext(

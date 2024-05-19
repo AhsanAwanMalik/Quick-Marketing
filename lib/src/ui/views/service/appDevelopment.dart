@@ -92,9 +92,29 @@ class AppDevelopment extends StatelessWidget {
                                           )
                                         ]),
                                   ),
-                                  
                                   Text(
-                                    'App development is the leading avenue of the virtual media world that silhouettes your brand story, qualifying brand exposure with the target audience and doles out the most promising approach to serve your customers, be in 24/7 contact with them and enabling them to have the best user experience. We constellate creativity and innovation in sync to frame your passion into a smart profession.',
+                                    'Mobile application development',
+                                    style: TextStyle(
+                                        color: UIDataColors.blackColor,
+                                        fontSize:
+                                            !Responsive.isMobileContext(context)
+                                                ? Responsive.isTabletContext(
+                                                        context)
+                                                    ? 14
+                                                    : 16
+                                                : 14,
+                                        height:
+                                            !Responsive.isMobileContext(context)
+                                                ? Responsive.isTabletContext(
+                                                        context)
+                                                    ? 1.4
+                                                    : 1.6
+                                                : 1.4,
+                                        fontWeight: FontWeight.bold,
+                                        decoration: TextDecoration.none),
+                                  ).paddingOnly(top: 0, bottom: 10),
+                                  Text(
+                                    'our mobile app development service, we provide complete and highly effective solutions for mobile platforms such as iOS and Android. Our goal is to deliver seamless and engaging user experiences through intuitive mobile applications. \n \n Our expert team of apps or mobile applications is committed to the design and development of attractive and functional mobile business app solutions that add value to your business and improve access for your end users.',
                                     style: TextStyle(
                                         color: UIDataColors.blackColor,
                                         fontSize:
@@ -115,7 +135,28 @@ class AppDevelopment extends StatelessWidget {
                                         decoration: TextDecoration.none),
                                   ).paddingOnly(top: 0, bottom: 10),
                                   Text(
-                                    'Mobile app development in Pakistan has increased dramatically in recent years. Trio-Tech Digital is a mobile app development company in Pakistan that is not limited to coding. We work with our clients from the intangible phase to the application of ideas – through strategy, design and development.',
+                                    'Mobile Application Development Services',
+                                    style: TextStyle(
+                                        color: UIDataColors.blackColor,
+                                        fontSize:
+                                            !Responsive.isMobileContext(context)
+                                                ? Responsive.isTabletContext(
+                                                        context)
+                                                    ? 14
+                                                    : 16
+                                                : 14,
+                                        height:
+                                            !Responsive.isMobileContext(context)
+                                                ? Responsive.isTabletContext(
+                                                        context)
+                                                    ? 1.4
+                                                    : 1.6
+                                                : 1.4,
+                                        fontWeight: FontWeight.bold,
+                                        decoration: TextDecoration.none),
+                                  ).paddingOnly(top: 0, bottom: 10),
+                                  Text(
+                                    'Our mobile app development services are designed to fit the unique demands of your business, ensuring optimal results to meet your business objectives, whether sales, views, downloads, subscriptions, etc. We offer a wide range of mobile business app solutions, For Example:\n\nIOS App Development: We develop professional applications for iPhone, thereby creating software perfectly adapted to the device, from the approach of the idea to programming, development and distribution management.\n\nAndroid App Development: Android has come to overtake the iPhone in number of users, and its numbers and possibilities seem to have no end. The scope of applications is extensive.\n\nHybrid App Development: We implement hybrid applications that combine the best of native and web apps, allowing your business to reach a larger audience with a single solution and be a leader in your sector.',
                                     style: TextStyle(
                                         color: UIDataColors.blackColor,
                                         fontSize:
@@ -135,69 +176,6 @@ class AppDevelopment extends StatelessWidget {
                                         fontWeight: FontWeight.normal,
                                         decoration: TextDecoration.none),
                                   ),
-                                  Text(
-                                    'Apple is known as the most profitable platform for mobile app developers. Google Android is a mobile app that provides most of the Smartphones and Tablets, worldwide and our Android team is working every day to provide our clients with the perfect mobile app solutions.',
-                                    style: TextStyle(
-                                        color: UIDataColors.blackColor,
-                                        fontSize:
-                                            !Responsive.isMobileContext(context)
-                                                ? Responsive.isTabletContext(
-                                                        context)
-                                                    ? 14
-                                                    : 16
-                                                : 14,
-                                        height:
-                                            !Responsive.isMobileContext(context)
-                                                ? Responsive.isTabletContext(
-                                                        context)
-                                                    ? 1.4
-                                                    : 1.6
-                                                : 1.4,
-                                        fontWeight: FontWeight.normal,
-                                        decoration: TextDecoration.none),
-                                  ).paddingOnly(top: 10, bottom: 10),
-                                  Text(
-                                    'We understand your challenges in all business operations and recognize your company values. Our goal is to make your thoughts come alive through our full mobile app development tools and our multi-industry experience involving many industries with overseas customers, especially in the USA and UK. Our mobile app development tools.',
-                                    style: TextStyle(
-                                        color: UIDataColors.blackColor,
-                                        fontSize:
-                                            !Responsive.isMobileContext(context)
-                                                ? Responsive.isTabletContext(
-                                                        context)
-                                                    ? 14
-                                                    : 16
-                                                : 14,
-                                        height:
-                                            !Responsive.isMobileContext(context)
-                                                ? Responsive.isTabletContext(
-                                                        context)
-                                                    ? 1.4
-                                                    : 1.6
-                                                : 1.4,
-                                        fontWeight: FontWeight.normal,
-                                        decoration: TextDecoration.none),
-                                  ),
-                                  Text(
-                                    'The development of native transit can help speed up the launch time but requires senior people to do well. Minimizing the impact on UX is important to maintain and satisfy users. When done successfully, engineers can make full use of the skills of native platforms while also sharing business idea with them.',
-                                    style: TextStyle(
-                                        color: UIDataColors.blackColor,
-                                        fontSize:
-                                            !Responsive.isMobileContext(context)
-                                                ? Responsive.isTabletContext(
-                                                        context)
-                                                    ? 14
-                                                    : 16
-                                                : 14,
-                                        height:
-                                            !Responsive.isMobileContext(context)
-                                                ? Responsive.isTabletContext(
-                                                        context)
-                                                    ? 1.4
-                                                    : 1.6
-                                                : 1.4,
-                                        fontWeight: FontWeight.normal,
-                                        decoration: TextDecoration.none),
-                                  ).paddingOnly(top: 10, bottom: 10),
                                 ]),
                           ))).paddingOnly(
                       top: 50,
@@ -208,7 +186,7 @@ class AppDevelopment extends StatelessWidget {
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
                         Text(
-                          'Trio Tec Digital has opened the gambit to make a successful Mobile application for any kind of business. We can develop the applications not only for the smaller businesses but also the bigger ones. We are trying our level best to provide best services to our customers that why our process is quite smooth and sleek.',
+                          'Quick Ink Marketing has opened the gambit to make a successful Mobile application for any kind of business. We can develop the applications not only for the smaller businesses but also the bigger ones. We are trying our level best to provide best services to our customers that why our process is quite smooth and sleek.',
                           style: TextStyle(
                               color: UIDataColors.blackColor,
                               fontSize: !Responsive.isMobileContext(context)
@@ -224,23 +202,6 @@ class AppDevelopment extends StatelessWidget {
                               fontWeight: FontWeight.normal,
                               decoration: TextDecoration.none),
                         ).paddingOnly(top: 20, bottom: 15),
-                        Text(
-                          'Trio Tec Digital has opened the gambit to make a successful Mobile application for any kind of business. We can develop the applications not only for the smaller businesses but also the bigger ones. We are trying our level best to provide best services to our customers that why our process is quite smooth and sleek.',
-                          style: TextStyle(
-                              color: UIDataColors.blackColor,
-                              fontSize: !Responsive.isMobileContext(context)
-                                  ? Responsive.isTabletContext(context)
-                                      ? 14
-                                      : 16
-                                  : 14,
-                              height: !Responsive.isMobileContext(context)
-                                  ? Responsive.isTabletContext(context)
-                                      ? 1.4
-                                      : 1.6
-                                  : 1.4,
-                              fontWeight: FontWeight.normal,
-                              decoration: TextDecoration.none),
-                        ).paddingOnly(bottom: 20),
                         Text(
                           'Android has more than 80% of the mobile market’s share.',
                           style: TextStyle(
@@ -310,7 +271,7 @@ class AppDevelopment extends StatelessWidget {
                               decoration: TextDecoration.none),
                         ).paddingOnly(left: 50),
                         Text(
-                          'Trio Tec Digital is an app development agency in Lahore that helps its clients to grow the business. Trio Tec aids you in launching your app to get into the direct contact with your valuable customers. Trio Tec Digital App development company in Pakistan will help your brand to flourish and grow like never before.',
+                          'Quick Ink Marketing is an app development agency in Lahore that helps its clients to grow the business. Trio Tec aids you in launching your app to get into the direct contact with your valuable customers. Quick Ink Marketing App development company in Pakistan will help your brand to flourish and grow like never before.',
                           style: TextStyle(
                               color: UIDataColors.blackColor,
                               fontSize: !Responsive.isMobileContext(context)
